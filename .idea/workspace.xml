@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="511114fb-6a35-4452-adc5-40c1dae8c6be" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/users/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Handlers/ImageUploadHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +181,7 @@
       <workItem from="1597303809273" duration="916000" />
       <workItem from="1597305011608" duration="3400000" />
       <workItem from="1597308779745" duration="3583000" />
-      <workItem from="1597367859868" duration="8645000" />
+      <workItem from="1597367859868" duration="10944000" />
     </task>
     <servers />
   </component>
@@ -226,10 +230,18 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1131" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597387446965">
+      <screen x="-1920" y="40" width="1920" height="1080" />
+    </state>
+    <state x="-1131" y="380" key="#com.intellij.fileTypes.FileTypeChooser/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1597387446965" />
     <state x="-1380" y="345" key="EditFileWatcherDialog" timestamp="1597308433963">
       <screen x="-1920" y="63" width="1920" height="1057" />
     </state>
     <state x="-1380" y="345" key="EditFileWatcherDialog/-1920.63.1920.1057/0.23.1792.1046@-1920.63.1920.1057" timestamp="1597308433963" />
+    <state x="-1169" y="387" key="NewPhpClassDialog" timestamp="1597385059241">
+      <screen x="-1920" y="40" width="1920" height="1080" />
+    </state>
+    <state x="-1169" y="387" key="NewPhpClassDialog/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1597385059241" />
     <state x="-1170" y="478" key="NewPhpFileDialog" timestamp="1597382879601">
       <screen x="-1920" y="40" width="1920" height="1080" />
     </state>
