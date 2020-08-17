@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="511114fb-6a35-4452-adc5-40c1dae8c6be" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Handlers/SlugTranslateHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larabbs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Policies/TopicPolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/TopicPolicy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/topics/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Topic.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Topic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Observers/TopicObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/TopicObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/topics/_topic_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/_topic_list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +158,7 @@
       <path value="$PROJECT_DIR$/vendor/summerblue/laravel-active" />
       <path value="$PROJECT_DIR$/vendor/mews/purifier" />
       <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/pinyin" />
     </include_path>
   </component>
   <component name="ProjectId" id="1g2DU7qFXt9E6aQCQpmYlF4m494" />
@@ -188,7 +196,7 @@
       <workItem from="1597305011608" duration="3400000" />
       <workItem from="1597308779745" duration="3583000" />
       <workItem from="1597367859868" duration="19793000" />
-      <workItem from="1597626608412" duration="15286000" />
+      <workItem from="1597626608412" duration="16917000" />
     </task>
     <servers />
   </component>
@@ -251,10 +259,10 @@
       <screen x="-1920" y="40" width="1920" height="1080" />
     </state>
     <state x="-1169" y="387" key="NewPhpClassDialog/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1597385059241" />
-    <state x="-1170" y="478" key="NewPhpFileDialog" timestamp="1597633735177">
+    <state x="-1170" y="478" key="NewPhpFileDialog" timestamp="1597653756068">
       <screen x="-1920" y="40" width="1920" height="1080" />
     </state>
-    <state x="-1170" y="478" key="NewPhpFileDialog/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1597633735177" />
+    <state x="-1170" y="478" key="NewPhpFileDialog/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1597653756068" />
     <state x="-1170" y="492" key="NewPhpFileDialog/-1920.63.1920.1057/0.23.1792.1046@-1920.63.1920.1057" timestamp="1597307520755" />
     <state x="-1555" y="130" key="SettingsEditor" timestamp="1597308302360">
       <screen x="-1920" y="63" width="1920" height="1057" />
@@ -264,9 +272,10 @@
       <screen x="-1920" y="63" width="1920" height="1057" />
     </state>
     <state x="-1317" y="398" key="com.intellij.ide.util.TipDialog/-1920.63.1920.1057/0.23.1792.1046@-1920.63.1920.1057" timestamp="1597626616044" />
-    <state x="-1392" y="275" width="795" height="582" key="find.popup" timestamp="1597368504389">
-      <screen x="-1920" y="63" width="1920" height="1057" />
+    <state x="-1392" y="257" width="795" height="595" key="find.popup" timestamp="1597655041598">
+      <screen x="-1920" y="40" width="1920" height="1080" />
     </state>
+    <state x="-1392" y="257" width="795" height="595" key="find.popup/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1597655041598" />
     <state x="-1392" y="275" width="795" height="582" key="find.popup/-1920.63.1920.1057/0.23.1792.1046@-1920.63.1920.1057" timestamp="1597368504389" />
   </component>
 </project>
