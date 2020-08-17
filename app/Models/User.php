@@ -47,4 +47,9 @@ class User extends Authenticatable implements MustVerifyEmailController
     {
         return $this->id == $model->user_id;
     }
+
+    public function replices()
+    {
+        return $this->hasMany (Reply::class);
+    }
 }
