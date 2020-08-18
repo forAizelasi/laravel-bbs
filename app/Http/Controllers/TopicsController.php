@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Handlers\ImageUploadHandler;
 use App\Models\Category;
 use App\Models\Topic;
+use App\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\TopicRequest;
@@ -31,6 +32,7 @@ class TopicsController extends Controller
         if (!empty($topic->slug) && $topic->slug != $request->slug) {
             return redirect ($topic->link () ,301);
         }
+//        $user = User::find(1);
         return view('topics.show', compact('topic'));
     }
 

@@ -6,13 +6,13 @@ class Reply extends Model
 {
     protected $fillable = ['content'];
 
-    public function topic(Topic $topic)
+    public function topic()
     {
-        return $this->belongsTo (Topic::class);
+        return $this->belongsTo(Topic::class);
     }
 
     public function user()
     {
-        return $this->belongsTo (User::class);
+        return $this->belongsTo(User::class);
     }
 }
