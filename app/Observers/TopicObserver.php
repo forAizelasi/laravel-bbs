@@ -28,4 +28,13 @@ class TopicObserver
             dispatch(new TranslateSlug($topic));
         }
     }
+
+    /**
+     * 话题连带删除
+     * @param Topic $topic
+     */
+    public function delete(Topic $topic)
+    {
+        \DB::table ('replies')->where ('topic_id',$topic->id)->delete ();
+    }
 }

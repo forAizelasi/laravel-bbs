@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="511114fb-6a35-4452-adc5-40c1dae8c6be" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Notifications/TopicReplied.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Notifications/TopicReplied.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Topic.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Topic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Observers/ReplyObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/ReplyObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Observers/TopicObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/TopicObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Policies/ReplyPolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/ReplyPolicy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/topics/_reply_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/_reply_list.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +200,7 @@
       <workItem from="1597626608412" duration="19618000" />
       <workItem from="1597718362684" duration="1191000" />
       <workItem from="1597737669862" duration="2527000" />
-      <workItem from="1597740343258" duration="2913000" />
+      <workItem from="1597740343258" duration="3726000" />
     </task>
     <servers />
   </component>
