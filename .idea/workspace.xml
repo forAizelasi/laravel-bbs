@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="511114fb-6a35-4452-adc5-40c1dae8c6be" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/Traits/LastActivedAtHelper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,10 +267,10 @@
       <screen x="-1920" y="40" width="1920" height="1080" />
     </state>
     <state x="-1169" y="387" key="NewPhpClassDialog/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1597385059241" />
-    <state x="-658" y="258" key="NewPhpFileDialog" timestamp="1597826240529">
+    <state x="-658" y="258" key="NewPhpFileDialog" timestamp="1597828814884">
       <screen x="-1080" y="-521" width="1080" height="1920" />
     </state>
-    <state x="-658" y="258" key="NewPhpFileDialog/-1080.-521.1080.1920/0.0.1792.1120@-1080.-521.1080.1920" timestamp="1597826240529" />
+    <state x="-658" y="258" key="NewPhpFileDialog/-1080.-521.1080.1920/0.0.1792.1120@-1080.-521.1080.1920" timestamp="1597828814884" />
     <state x="-1170" y="478" key="NewPhpFileDialog/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1597820162732" />
     <state x="-1170" y="492" key="NewPhpFileDialog/-1920.63.1920.1057/0.23.1792.1046@-1920.63.1920.1057" timestamp="1597307520755" />
     <state x="-1555" y="130" key="SettingsEditor" timestamp="1597308302360">
@@ -282,9 +287,10 @@
     </state>
     <state x="-1392" y="257" width="795" height="595" key="find.popup/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1597655041598" />
     <state x="-1392" y="275" width="795" height="582" key="find.popup/-1920.63.1920.1057/0.23.1792.1046@-1920.63.1920.1057" timestamp="1597368504389" />
-    <state x="-1295" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1597807561852">
-      <screen x="-1920" y="40" width="1920" height="1080" />
+    <state x="-728" y="-93" width="670" height="1202" key="search.everywhere.popup" timestamp="1597829652206">
+      <screen x="-1080" y="-521" width="1080" height="1920" />
     </state>
+    <state x="-728" y="-93" width="670" height="1202" key="search.everywhere.popup/-1080.-521.1080.1920/0.0.1792.1120@-1080.-521.1080.1920" timestamp="1597829652206" />
     <state x="-1295" y="281" width="670" height="676" key="search.everywhere.popup/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1597807561852" />
   </component>
 </project>
