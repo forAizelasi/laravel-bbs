@@ -15,8 +15,9 @@ class Policy
 
     public function before($user, $ability)
 	{
-	    // if ($user->isSuperAdmin()) {
-	    // 		return true;
-	    // }
+	    //如果用户拥有管理员内容的权限 即授权通过
+        if ($user->can('mange_contents')) {
+            return true;
+        }
 	}
 }
