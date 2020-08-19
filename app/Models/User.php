@@ -82,4 +82,29 @@ class User extends Authenticatable implements MustVerifyEmailController
         $this->save ();
         $this->unreadNotifications->markAsRead();
     }
+
+    /**
+     * 修改密码处理加密问题
+     * @param $value
+     */
+    public function setPasswordAttribute($value)
+    {
+        //如果长度等于60 即认为已经做过加密的情况
+        if (strlen ($value) != 60) {
+            //不等于60做密码加密处理
+            $value = bcrypt ($value);
+        }
+        $this->attributes['password'] = $value;
+    }
+
+    public function setAvatarAttribute($path)
+    {
+        //如果不是'http'子串开头，那就是从后台上传的 需要不全url
+        if (! \Str::startsWith($path,'http')) {
+            //拼接完整的 URL
+            $path = config ('app.url') . "/uploads/images/avatars/$path";
+        }
+
+        $this->attributes['avatar'] = $path;
+    }
 }
