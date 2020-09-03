@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="511114fb-6a35-4452-adc5-40c1dae8c6be" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +203,9 @@
       <workItem from="1597799117783" duration="12038000" />
       <workItem from="1597912136572" duration="1221000" />
       <workItem from="1598583883762" duration="251000" />
-      <workItem from="1599038336696" duration="7799000" />
+      <workItem from="1599038336696" duration="8077000" />
+      <workItem from="1599096203124" duration="244000" />
+      <workItem from="1599096671404" duration="241000" />
     </task>
     <servers />
   </component>
@@ -277,10 +278,10 @@
       <screen x="-1920" y="63" width="1920" height="1057" />
     </state>
     <state x="-1555" y="130" key="SettingsEditor/-1920.63.1920.1057/0.23.1792.1046@-1920.63.1920.1057" timestamp="1597308302360" />
-    <state x="563" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1597799120501">
-      <screen x="0" y="23" width="1792" height="1046" />
+    <state x="-1317" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1599096671606">
+      <screen x="-1920" y="40" width="1920" height="1080" />
     </state>
-    <state x="-1317" y="382" key="com.intellij.ide.util.TipDialog/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1597740343728" />
+    <state x="-1317" y="382" key="com.intellij.ide.util.TipDialog/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1599096671606" />
     <state x="563" y="354" key="com.intellij.ide.util.TipDialog/-1920.63.1920.1057/0.23.1792.1046@-1920.63.1920.1057" timestamp="1597799120501" />
     <state x="-1392" y="257" width="795" height="595" key="find.popup" timestamp="1597655041598">
       <screen x="-1920" y="40" width="1920" height="1080" />
