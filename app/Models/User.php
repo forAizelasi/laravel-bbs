@@ -42,7 +42,7 @@ class User extends Authenticatable implements MustVerifyEmailController
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password','introduction','avatar','phone',
+        'name', 'email', 'password','introduction','avatar','phone','weixin_openid','weixin_unionid',
     ];
 
     /**
